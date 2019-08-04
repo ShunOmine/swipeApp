@@ -62,6 +62,7 @@
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="1" green="0.09549034663" blue="0.66588204220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="DVj-3M-cnY" secondAttribute="trailing" constant="20" id="1h0-fk-2JF"/>
                                     <constraint firstItem="DVj-3M-cnY" firstAttribute="top" secondItem="e3U-p8-aZ0" secondAttribute="top" constant="10" id="5lC-eh-XLi"/>
@@ -90,19 +91,19 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="板垣退助" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGC-6o-9yt">
                                                                 <rect key="frame" x="0.0" y="0.0" width="386" height="126"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                                                <nil key="textColor"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="議員" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgt-Ca-Dhe">
                                                                 <rect key="frame" x="0.0" y="126" width="386" height="126"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRL-ox-C0q">
                                                                 <rect key="frame" x="0.0" y="252" width="386" height="126"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -112,7 +113,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="GIN-1W-iEN" secondAttribute="trailing" constant="20" id="Idd-GH-FGM"/>
                                     <constraint firstAttribute="bottom" secondItem="GIN-1W-iEN" secondAttribute="bottom" constant="10" id="Qbc-ti-AYn"/>
@@ -163,7 +164,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.20735618709811976" green="1" blue="0.73888487376609824" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="zma-Ty-yKY" firstAttribute="leading" secondItem="4nk-SI-kuk" secondAttribute="leadingMargin" id="1vh-Us-FHK"/>
                                     <constraint firstItem="zma-Ty-yKY" firstAttribute="top" secondItem="4nk-SI-kuk" secondAttribute="top" constant="10" id="Gbw-Ii-y7O"/>
@@ -214,7 +215,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="iwJ-KJ-nKY" secondAttribute="trailing" constant="20" id="4Hk-gy-i7c"/>
                                     <constraint firstItem="iwJ-KJ-nKY" firstAttribute="leading" secondItem="Flt-j9-atD" secondAttribute="leadingMargin" id="CHp-ZJ-hRi"/>
@@ -243,7 +244,6 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="津田梅子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1U-ad-0ky">
                                                                 <rect key="frame" x="0.0" y="0.0" width="386" height="126"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                                                <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="教師" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvk-cO-0yN" userLabel="教師">
@@ -265,7 +265,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.80023165626324944" green="1" blue="0.35750232309653429" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="ezx-J4-g5W" firstAttribute="leading" secondItem="BOI-kn-uL2" secondAttribute="leadingMargin" id="Iy2-VJ-gj0"/>
                                     <constraint firstAttribute="bottom" secondItem="ezx-J4-g5W" secondAttribute="bottom" constant="10" id="PFs-qf-7af"/>
@@ -294,7 +294,9 @@
                                     <constraint firstAttribute="width" constant="70" id="dZQ-zY-Pws"/>
                                     <constraint firstAttribute="height" constant="70" id="uBM-Kt-Cuj"/>
                                 </constraints>
-                                <state key="normal" image="バツ"/>
+                                <state key="normal" image="バツ">
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="dislikeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDb-Gn-rM5"/>
                                     <action selector="likeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tqo-lI-SiF"/>
@@ -302,17 +304,23 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JuO-L6-hiv">
                                 <rect key="frame" x="324" y="752" width="70" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="Eb2-xd-YN2"/>
                                     <constraint firstAttribute="width" constant="70" id="aAJ-uL-ORg"/>
                                 </constraints>
-                                <state key="normal" image="ハート"/>
+                                <size key="titleShadowOffset" width="30" height="30"/>
+                                <state key="normal" image="ハート">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="likeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GW0-at-HLt"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DmX-i1-j9L" firstAttribute="trailing" secondItem="5Jo-oM-ywX" secondAttribute="trailing" id="2t1-p4-ctL"/>
                             <constraint firstItem="BOI-kn-uL2" firstAttribute="bottom" secondItem="5Jo-oM-ywX" secondAttribute="bottom" id="57B-TT-L5A"/>
@@ -445,4 +453,5 @@
         <image name="板垣退助" width="383" height="400"/>
         <image name="津田梅子" width="373" height="400"/>
     </resources>
+    <color key="tintColor" red="1" green="0.09549034663" blue="0.66588204220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
