@@ -12,6 +12,7 @@
 		2A92E57422F657AF00403E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92E57222F657AF00403E53 /* Main.storyboard */; };
 		2A92E57622F657B000403E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A92E57522F657B000403E53 /* Assets.xcassets */; };
 		2A92E57922F657B000403E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92E57722F657B000403E53 /* LaunchScreen.storyboard */; };
+		2A92E58122F66DF000403E53 /* LikedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92E58022F66DF000403E53 /* LikedListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2A92E57522F657B000403E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A92E57822F657B000403E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A92E57A22F657B000403E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A92E58022F66DF000403E53 /* LikedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2A92E56E22F657AF00403E53 /* AppDelegate.swift */,
 				2A92E57022F657AF00403E53 /* ViewController.swift */,
 				2A92E57222F657AF00403E53 /* Main.storyboard */,
+				2A92E58022F66DF000403E53 /* LikedListTableViewController.swift */,
 				2A92E57522F657B000403E53 /* Assets.xcassets */,
 				2A92E57722F657B000403E53 /* LaunchScreen.storyboard */,
 				2A92E57A22F657B000403E53 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A92E58122F66DF000403E53 /* LikedListTableViewController.swift in Sources */,
 				2A92E57122F657AF00403E53 /* ViewController.swift in Sources */,
 				2A92E56F22F657AF00403E53 /* AppDelegate.swift in Sources */,
 			);
