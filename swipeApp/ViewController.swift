@@ -75,8 +75,8 @@ class ViewController: UIViewController {
                     self.resetCard()
                     // 該当のユーザーカードを画面外(マイナス方向)へ飛ばす
                     self.people[self.selectedCardCount].center = CGPoint(
-                        x:self.people[self.selectedCardCount].center.x - UIScreen.main.bounds.width,
-                        y: self.people[self.selectedCardCount].center.y - self.view.frame.height)
+                        x:self.people[self.selectedCardCount].center.x - 500,
+                        y: self.people[self.selectedCardCount].center.y)
                 })
                 likeImage.isHidden = true
                 self.selectedCardCount += 1
@@ -91,8 +91,8 @@ class ViewController: UIViewController {
                     self.resetCard()
                     // 該当のユーザーカードを画面外(プラス方向)へ飛ばす
                     self.people[self.selectedCardCount].center = CGPoint(
-                        x:self.people[self.selectedCardCount].center.x + UIScreen.main.bounds.width,
-                        y: self.people[self.selectedCardCount].center.y + self.view.frame.height)
+                        x:self.people[self.selectedCardCount].center.x + 500,
+                        y: self.people[self.selectedCardCount].center.y)
                 })
                 likeImage.isHidden = true
                 self.likedName.append(name[self.selectedCardCount])
@@ -145,6 +145,7 @@ class ViewController: UIViewController {
         likeImage.isHidden = true
         self.selectedCardCount += 1
         if selectedCardCount >= people.count {
+            // 画面遷移
             performSegue(withIdentifier: "PushToLikedList", sender: self)
         }
         return

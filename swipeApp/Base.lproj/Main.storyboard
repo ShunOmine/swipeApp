@@ -281,7 +281,7 @@
                                     <outletCollection property="gestureRecognizers" destination="ZWD-45-gOL" appends="YES" id="xOe-cj-7HY"/>
                                 </connections>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jRa-E7-Vve" userLabel="like Image">
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="いいね" translatesAutoresizingMaskIntoConstraints="NO" id="jRa-E7-Vve" userLabel="like Image">
                                 <rect key="frame" x="132" y="373" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="9kY-pP-wt8"/>
@@ -299,7 +299,6 @@
                                 </state>
                                 <connections>
                                     <action selector="dislikeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDb-Gn-rM5"/>
-                                    <action selector="likeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tqo-lI-SiF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JuO-L6-hiv">
@@ -343,7 +342,6 @@
                             <constraint firstItem="Flt-j9-atD" firstAttribute="top" secondItem="4nk-SI-kuk" secondAttribute="top" id="KnB-Qb-yFM"/>
                             <constraint firstItem="DmX-i1-j9L" firstAttribute="bottom" secondItem="5Jo-oM-ywX" secondAttribute="bottom" id="Lng-kt-jPJ"/>
                             <constraint firstItem="Flt-j9-atD" firstAttribute="top" secondItem="5Jo-oM-ywX" secondAttribute="top" id="Myo-8S-pfr"/>
-                            <constraint firstItem="ZFR-tw-x2q" firstAttribute="top" secondItem="5Jo-oM-ywX" secondAttribute="bottom" constant="40" id="PX6-Aj-fGE"/>
                             <constraint firstItem="ZFR-tw-x2q" firstAttribute="top" secondItem="BOI-kn-uL2" secondAttribute="bottom" constant="40" id="Rqj-bt-oWS"/>
                             <constraint firstItem="DmX-i1-j9L" firstAttribute="top" secondItem="5Jo-oM-ywX" secondAttribute="top" id="TcS-7j-Vhv"/>
                             <constraint firstItem="4nk-SI-kuk" firstAttribute="top" secondItem="5Jo-oM-ywX" secondAttribute="top" id="Xet-Jx-XEW"/>
@@ -367,7 +365,6 @@
                             <constraint firstItem="Flt-j9-atD" firstAttribute="trailing" secondItem="5Jo-oM-ywX" secondAttribute="trailing" id="x4M-El-Q8N"/>
                             <constraint firstItem="ZFR-tw-x2q" firstAttribute="top" secondItem="5Jo-oM-ywX" secondAttribute="bottom" constant="40" id="xIF-zU-4Du"/>
                             <constraint firstItem="BOI-kn-uL2" firstAttribute="top" secondItem="5Jo-oM-ywX" secondAttribute="top" id="yRl-xA-WC4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZFR-tw-x2q" secondAttribute="bottom" constant="40" id="zjZ-n0-flc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -445,6 +442,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="いいね" width="256" height="256"/>
         <image name="ガリレオガリレイ" width="400" height="398"/>
         <image name="ジョン万次郎" width="353" height="400"/>
         <image name="ジョージワシントン" width="349" height="400"/>
